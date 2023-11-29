@@ -42,3 +42,15 @@ a {
     background-color: lightslategray;
     padding: 2rem;
 }
+
+.wrapper {
+    background-color: black;
+    color: white;
+}
+
+/* header */
+
+header {
+    height: 60px;
+    text-align: right;
+}
