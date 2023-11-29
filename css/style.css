@@ -68,11 +68,22 @@ header .view {
 /* main */
 
 .card-container {
-    width: 80%
+    width: 80%;
+    height: 100vh;
 }
 
 .card {
     width: 20%;
     display: flex;
     flex-wrap: wrap;
+    position: relative;
+}
+
+.card-name {
+    position: absolute;
+    bottom: 0;
+    background-color: #4a4a4a;
+    padding: 5px;
+    filter: opacity(0.5);
+
 }
