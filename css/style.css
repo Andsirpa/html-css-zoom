@@ -67,6 +67,11 @@ header .view {
 
 /* main */
 
+main {
+    height: calc(100vh - 60px - 120px);
+    overflow: scroll;
+}
+
 .card-container {
     margin: 0 100px;
     height: 100vh;
@@ -93,4 +98,9 @@ header .view {
     padding: 5px;
     filter: opacity(0.5);
 
+}
+
+/* footer */
+footer {
+    height: 120px;
 }
